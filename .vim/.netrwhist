@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/mat/Projects/EMU/enterprise-drupal/sites/all/modules/examples/ajax_example'
-let g:netrw_dirhist_2='/Users/mat/Projects/EMU/enterprise-drupal/sites/all/modules/examples/block_example'
-let g:netrw_dirhist_3='/Users/mat/Downloads/leemason-NHP-Theme-Options-Framework-048cef9-1'
-let g:netrw_dirhist_4='/Users/mat/Projects/EMU/kwva-wordpress/wp-content/themes/theme-options'

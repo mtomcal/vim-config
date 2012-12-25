@@ -14,7 +14,6 @@ git_bundles = [
   "git://github.com/tpope/vim-repeat.git",
   "git://github.com/tpope/vim-surround.git",
   "git://github.com/tpope/vim-vividchalk.git",
-  "git://github.com/tsaleh/taskpaper.vim.git",
   "git://github.com/tsaleh/vim-matchit.git",
   "git://github.com/tsaleh/vim-shoulda.git",
   "git://github.com/tsaleh/vim-tcomment.git",
@@ -29,6 +28,7 @@ git_bundles = [
   "git://github.com/nono/vim-handlebars.git",
   "git://github.com/altercation/vim-colors-solarized",
   "git://github.com/johnhamelink/blade.vim",
+  "git://github.com/vexxor/phpdoc.vim",
 ]
 
 vim_org_scripts = [
