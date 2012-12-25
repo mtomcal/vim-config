@@ -33,6 +33,7 @@ git_bundles = [
   "git://github.com/tpope/vim-unimpaired.git",
   "git://github.com/nono/vim-handlebars.git",
   "git://github.com/altercation/vim-colors-solarized",
+  "git://github.com/johnhamelink/blade.vim",
 ]
 
 vim_org_scripts = [
