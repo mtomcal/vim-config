@@ -29,6 +29,7 @@ git_bundles = [
   "git://github.com/johnhamelink/blade.vim",
   "git://github.com/vexxor/phpdoc.vim",
   "git://github.com/majutsushi/tagbar.git",
+  "git://github.com/brookhong/cscope.vim",
 ]
 
 vim_org_scripts = [
