@@ -30,6 +30,8 @@ git_bundles = [
   "git://github.com/vexxor/phpdoc.vim",
   "git://github.com/majutsushi/tagbar.git",
   "git://github.com/brookhong/cscope.vim",
+  "git://github.com/rizzatti/funcoo.vim.git",
+  "git://github.com/rizzatti/dash.vim.git",
 ]
 
 vim_org_scripts = [
