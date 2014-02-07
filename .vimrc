@@ -8,6 +8,16 @@ set background=dark
 set guifont=DejaVu\ Sans\ Mono:h14
 let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1
+set nobackup
+set noswapfile
+set mouse=a
+set pastetoggle=<F2>
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+nmap <silent> ,/ :nohlsearch<CR>
 " PHP documenter script bound to Control-P
 autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
 autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
