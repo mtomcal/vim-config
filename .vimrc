@@ -17,10 +17,10 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
 nmap <silent> ,/ :nohlsearch<CR>
-" Switch to alternate file
-map <C-Tab> :bnext<cr>
-map <C-S-Tab> :bprevious<cr>
 " PHP documenter script bound to Control-P
 autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
 autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
