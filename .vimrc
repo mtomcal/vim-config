@@ -38,4 +38,7 @@ let g:user_zen_settings = {
       \    'extends' : 'html',
       \  },
       \}
-
+" Automatically create .backup directory, writable by the group.
+if filewritable(".") && ! filewritable(".backup")
+  silent execute '!umask 002; mkdir .backup'
+endif
