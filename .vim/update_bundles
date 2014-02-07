@@ -31,6 +31,7 @@ git_bundles = [
   "git://github.com/brookhong/cscope.vim",
   "git://github.com/rizzatti/funcoo.vim.git",
   "git://github.com/rizzatti/dash.vim.git",
+  "git://github.com/bling/vim-airline",
   "git://github.com/klen/python-mode.git",
 ]
 

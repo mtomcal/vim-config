@@ -6,10 +6,14 @@ set number
 colorscheme base16-default
 set background=dark
 set guifont=DejaVu\ Sans\ Mono:h14
+let g:airline_theme='dark'
+let g:airline#extensions#tabline#enabled = 1
 " PHP documenter script bound to Control-P
 autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
 autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
 autocmd FileType php vnoremap <C-p> :call PhpDocRange()<CR> 
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 nnoremap tg :TagbarToggle<CR>
 if executable('coffeetags')
   let g:tagbar_type_coffee = {
