@@ -33,6 +33,7 @@ git_bundles = [
   "git://github.com/rizzatti/dash.vim.git",
   "git://github.com/bling/vim-airline",
   "git://github.com/klen/python-mode.git",
+  "git://github.com/vim-scripts/php.vim-html-enhanced",
 ]
 
 vim_org_scripts = [
