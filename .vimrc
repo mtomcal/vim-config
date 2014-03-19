@@ -11,6 +11,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1
 let g:pymode_lint = 0
+let g:pymode_rope = 0
 set nobackup
 set noswapfile
 set mouse=a
