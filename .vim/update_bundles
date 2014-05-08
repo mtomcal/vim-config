@@ -29,10 +29,11 @@ git_bundles = [
   "git://github.com/majutsushi/tagbar.git",
   "git://github.com/brookhong/cscope.vim",
   "git://github.com/rizzatti/funcoo.vim.git",
-  "git://github.com/rizzatti/dash.vim.git",
   "git://github.com/bling/vim-airline",
   "git://github.com/klen/python-mode.git",
   "git://github.com/vim-scripts/php.vim-html-enhanced",
+  "git://github.com/scrooloose/syntastic",
+  "git://github.com/heavenshell/vim-jsdoc",
 ]
 
 vim_org_scripts = [

@@ -2,7 +2,7 @@ call pathogen#infect()
 call pathogen#helptags()
 syntax on
 filetype plugin indent on
-set tabstop=2 shiftwidth=2 expandtab
+set tabstop=4 shiftwidth=4 expandtab
 set number
 colorscheme base16-default
 set background=dark
@@ -12,6 +12,7 @@ let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1
 let g:pymode_lint = 0
 let g:pymode_rope = 0
+let g:syntastic_aggregate_errors = 1
 set nobackup
 set noswapfile
 set mouse=a
