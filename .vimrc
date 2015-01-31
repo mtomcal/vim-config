@@ -35,21 +35,6 @@ autocmd FileType php vnoremap <C-p> :call PhpDocRange()<CR>
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 nnoremap tg :TagbarToggle<CR>
-if executable('coffeetags')
-  let g:tagbar_type_coffee = {
-        \ 'ctagsbin' : 'coffeetags',
-        \ 'ctagsargs' : '--include-vars',
-        \ 'kinds' : [
-        \ 'f:functions',
-        \ 'o:object',
-        \ ],
-        \ 'sro' : ".",
-        \ 'kind2scope' : {
-        \ 'f' : 'object',
-        \ 'o' : 'object',
-        \ }
-        \ }
-endif
 let g:user_zen_settings = {
       \  'php' : {
       \    'extends' : 'html',
