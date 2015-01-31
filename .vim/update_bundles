@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-git_bundles = [ 
+git_bundles = [
   "git://github.com/ervandew/supertab.git",
   "git://github.com/tpope/vim-sleuth",
   "git://github.com/godlygeek/tabular.git",
@@ -16,7 +16,6 @@ git_bundles = [
   "git://github.com/rizzatti/funcoo.vim.git",
   "git://github.com/bling/vim-airline",
   "git://github.com/klen/python-mode.git",
-  "git://github.com/scrooloose/syntastic",
   "git://github.com/heavenshell/vim-jsdoc",
   "git://github.com/mxw/vim-jsx",
   "git://github.com/tpope/vim-ragtag",
