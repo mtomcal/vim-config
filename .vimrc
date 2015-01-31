@@ -15,6 +15,7 @@ let g:pymode_rope = 0
 let g:syntastic_aggregate_errors = 1
 let g:jsdoc_additional_descriptions = 1
 let g:jsdoc_default_mapping = 0
+let g:ragtag_global_maps = 1 
 set nobackup
 set noswapfile
 set mouse=a

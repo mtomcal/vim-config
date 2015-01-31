@@ -19,6 +19,9 @@ git_bundles = [
   "git://github.com/scrooloose/syntastic",
   "git://github.com/heavenshell/vim-jsdoc",
   "git://github.com/mxw/vim-jsx",
+  "git://github.com/tpope/vim-ragtag",
+  "git://github.com/bronson/vim-trailing-whitespace",
+  "git://github.com/kien/ctrlp.vim",
   "git://github.com/ervandew/matchem"
 ]
 
