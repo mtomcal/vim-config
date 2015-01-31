@@ -21,6 +21,7 @@ git_bundles = [
   "git://github.com/tpope/vim-ragtag",
   "git://github.com/bronson/vim-trailing-whitespace",
   "git://github.com/kien/ctrlp.vim",
+  "git://github.com/Xuyuanp/nerdtree-git-plugin",
   "git://github.com/ervandew/matchem"
 ]
 
