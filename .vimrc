@@ -2,7 +2,6 @@ call pathogen#infect()
 call pathogen#helptags()
 syntax on
 filetype plugin indent on
-set tabstop=4 shiftwidth=4 expandtab
 set number
 colorscheme base16-default
 set background=dark
@@ -15,6 +14,14 @@ let g:pymode_rope = 0
 let g:jsdoc_additional_descriptions = 1
 let g:jsdoc_default_mapping = 0
 let g:ragtag_global_maps = 1
+" Trigger configuration. Do not use <tab> if you use
+" https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+set list lcs=tab:\|\ 
 set nobackup
 set noswapfile
 set mouse=a
