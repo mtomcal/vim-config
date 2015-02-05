@@ -5,12 +5,11 @@ filetype plugin indent on
 set number
 colorscheme base16-default
 set background=dark
-"set guifont=DejaVu\ Sans\ Mono:h14
+set guifont=DejaVu\ Sans\ Mono:h14
+set gfn=DejaVu\ Sans\ Mono:h14
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1
-let g:pymode_lint = 0
-let g:pymode_rope = 0
 let g:jsdoc_additional_descriptions = 1
 let g:jsdoc_default_mapping = 0
 let g:ragtag_global_maps = 1
