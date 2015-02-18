@@ -38,8 +38,12 @@ nmap <silent> ,/ :nohlsearch<CR>
 autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
 autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
 autocmd FileType php vnoremap <C-p> :call PhpDocRange()<CR> 
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+let g:ctrlp_custom_ignore = {
+  \ 'hdir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'dir': '\v[\/](node_modules)$',
+  \ }
 nnoremap tg :TagbarToggle<CR>
 let g:user_zen_settings = {
       \  'php' : {
