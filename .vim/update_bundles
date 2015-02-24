@@ -25,7 +25,12 @@ git_bundles = [
   "git://github.com/honza/vim-snippets",
   "git://github.com/SirVer/ultisnips",
   "git://github.com/ervandew/matchem",
-  "git://github.com/scrooloose/syntastic.git"
+  "git://github.com/scrooloose/syntastic.git",
+  "git://github.com/tomtom/tlib_vim.git",
+  "git://github.com/MarcWeber/vim-addon-mw-utils.git",
+  "git://github.com/garbas/vim-snipmate.git",
+  "git://github.com/honza/vim-snippets.git",
+  "git://github.com/justinj/vim-react-snippets"
 ]
 
 vim_org_scripts = [
