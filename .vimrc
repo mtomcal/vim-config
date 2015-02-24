@@ -10,14 +10,15 @@ set gfn=DejaVu\ Sans\ Mono:h14
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1
+set laststatus=2
 let g:jsdoc_additional_descriptions = 1
 let g:jsdoc_default_mapping = 0
 let g:ragtag_global_maps = 1
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsJumpForwardTrigger="<c-n>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 set list lcs=tab:\|\ 
