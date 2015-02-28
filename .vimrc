@@ -5,8 +5,8 @@ filetype plugin indent on
 set number
 colorscheme base16-default
 set background=dark
-set guifont=DejaVu\ Sans\ Mono:h14
-set gfn=DejaVu\ Sans\ Mono:h14
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
+set gfn=DejaVu\ Sans\ Mono\ for\ Powerline:h14
 let g:airline_powerline_fonts = 1
 let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 1

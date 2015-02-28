@@ -54,9 +54,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mtomcal/bin:/Users/mtomcal/.nvm/v0.10.26/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/mtomcal/bin:/Applications/MAMP/Library/bin"
 
-source ~/.nvm/nvm.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -75,4 +74,5 @@ source ~/.nvm/nvm.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-[ -s "/Users/mtomcal/.nvm/nvm.sh" ] && . "/Users/mtomcal/.nvm/nvm.sh" # This loads nvm
+export NVM_DIR="/Users/tomcal/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
