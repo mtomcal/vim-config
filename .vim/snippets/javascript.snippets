@@ -1,0 +1,62 @@
+snippet mrcc
+	/* jshint: browser: true */
+	var React = require('react');
+	var ${1:ReactClass} = React.createClass({
+			mixins : [],
+			propTypes: {
+
+			},
+			getInitialState: function() {
+
+			},
+			getDefaultProps: function() {
+
+			},
+			componentDidMount: function() {
+
+			},
+			componentWillUnmount: function() {
+
+			},
+			render: function() {
+				var styles = {};
+
+				return (
+					<div></div>
+				);
+			}
+
+	});
+	module.exports = $1;
+
+snippet mrcc6
+	/* jshint: esnext: true, browser: true */
+	import React from 'react';
+
+	var ${1:ReactClass} = React.createClass({
+			mixins : [],
+			propTypes: {
+
+			},
+			getInitialState() {
+
+			},
+			getDefaultProps() {
+
+			},
+			componentDidMount() {
+
+			},
+			componentWillUnmount() {
+
+			},
+			render() {
+				var styles = {};
+
+				return (
+					<div></div>
+				);
+			}
+
+	});
+	module.exports = $1;
