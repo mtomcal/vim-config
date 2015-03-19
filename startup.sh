@@ -6,6 +6,7 @@ ln -s .vimrc ~/
 ln -s .vim ~/
 ln -s .gvimrc ~/
 ln -s .zshrc ~/
+source ~/.zshrc
 mkdir ~/bin
 mkdir ~/Projects
 cd ~/.vim
@@ -13,5 +14,3 @@ ruby update_bundles
 cd $root_dir
 nvm install v0.12.0
 npm install -g gulp jshint jsxhint
-open base16-tomorrow.dark.itermcolors
-open *.ttf
