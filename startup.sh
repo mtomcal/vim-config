@@ -1,16 +1,17 @@
 #!/bin/sh
 root_dir=`pwd`
 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
+ln -s $root_dir/.vimrc ~/
+ln -s $root_dir/.vim ~/
+ln -s $root_dir/.gvimrc ~/
+ln -s $root_dir/.zshrc ~/
+ln -s $root_dir/.atom ~/
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
-ln -s .vimrc ~/
-ln -s .vim/ ~/
-ln -s .gvimrc ~/
-ln -s .atom/ ~/
-ln -s .zshrc ~/
 source ~/.zshrc
 mkdir ~/bin
 mkdir ~/Projects
-cd ~/.vim
+cd .vim
+mkdir bundle
 ruby update_bundles
 apm install --packages-file .atom/install.txt
 cd $root_dir
