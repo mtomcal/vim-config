@@ -12,6 +12,7 @@ brew cask install hyperswitch
 brew cask install mou
 brew cask install sourcetree
 brew cask install robomongo
+brew cask install atom
 open base16-tomorrow.dark.itermcolors
 cd DejaVuSansMono/
 open *.ttf

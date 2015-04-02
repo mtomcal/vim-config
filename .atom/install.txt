@@ -1,0 +1,10 @@
+atom-typescript
+autocomplete-plus
+git-control
+gulp-control
+linter
+linter-jshint
+linter-jsxhint
+merge-conflicts
+react
+vim-mode
