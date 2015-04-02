@@ -8,3 +8,7 @@
     ]
   linter: {}
   react: {}
+  "exception-reporting":
+    userId: "f407fa81-2c90-cacb-b17c-6312ae907d21"
+  welcome:
+    showOnStartup: false
