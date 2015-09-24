@@ -3,6 +3,7 @@ call pathogen#helptags()
 syntax on
 filetype plugin indent on
 set number
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 colorscheme lightning
 set background=light
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
@@ -12,7 +13,7 @@ let g:airline_theme='light'
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 let g:jsdoc_additional_descriptions = 1
-let g:jsdoc_default_mapping = 0
+let g:jsdoc_default_mapping = 1
 let g:ragtag_global_maps = 1
 " Trigger configuration. Do not use <tab> if you use
 " https://github.com/Valloric/YouCompleteMe.
