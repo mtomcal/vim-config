@@ -1,14 +1,23 @@
 "*":
   editor:
-    fontSize: 16
+    invisibles: {}
   core:
     themes: [
-      "atom-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "one-light-ui"
+      "base16-tomorrow-light-theme"
     ]
-  linter: {}
+  linter:
+    showErrorPanel: false
   react: {}
   "exception-reporting":
     userId: "f407fa81-2c90-cacb-b17c-6312ae907d21"
   welcome:
     showOnStartup: false
+  "autocomplete-plus":
+    confirmCompletion: "tab and enter"
+  docblockr: {}
+  preview:
+    _analyticsUserId: "8351308d-68a5-40cf-a385-f7e829dd33dd"
+  term2: {}
+  zentabs:
+    neverCloseUnsaved: true
