@@ -1,0 +1,50 @@
+call pathogen#infect()
+call pathogen#helptags()
+syntax on
+filetype plugin indent on
+set number
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+set laststatus=2
+let g:jsdoc_additional_descriptions = 1
+let g:jsdoc_default_mapping = 1
+let g:ragtag_global_maps = 1
+set list lcs=tab:\|\ 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['jsxhint']
+set nobackup
+set noswapfile
+set mouse=a
+set pastetoggle=<F2>
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
+nmap <silent> ,/ :nohlsearch<CR>
+" autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+let g:ctrlp_custom_ignore = {
+  \ 'hdir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'dir': '\v[\/](node_modules)$',
+  \ }
+let g:user_zen_settings = {
+      \  'php' : {
+      \    'extends' : 'html',
+      \    'filters' : 'c',
+      \  },
+      \  'xml' : {
+      \    'extends' : 'html',
+      \  },
+      \  'haml' : {
+      \    'extends' : 'html',
+      \  },
+      \}
