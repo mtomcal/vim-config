@@ -37,6 +37,7 @@ set nobackup
 set noswapfile
 set mouse=a
 set pastetoggle=<F2>
+" Keyboard mappings
 " Easy window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -46,6 +47,14 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 nmap <silent> ,/ :nohlsearch<CR>
+nmap     <C-F>f <Plug>CtrlSFPrompt
+vmap     <C-F>f <Plug>CtrlSFVwordPath
+vmap     <C-F>F <Plug>CtrlSFVwordExec
+nmap     <C-F>n <Plug>CtrlSFCwordPath
+nmap     <C-F>p <Plug>CtrlSFPwordPath
+nnoremap <C-F>o :CtrlSFOpen<CR>
+nnoremap <C-F>t :CtrlSFToggle<CR>
+inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
 " PHP documenter script bound to Control-P
 autocmd FileType php inoremap <C-p> <ESC>:call PhpDocSingle()<CR>i
 autocmd FileType php nnoremap <C-p> :call PhpDocSingle()<CR>
