@@ -6,13 +6,8 @@ brew cask install iterm2
 brew cask install macvim
 brew cask install spotify
 brew cask install cyberduck
-brew cask install slack
-brew cask install docker-machine
 brew cask install hyperswitch
 brew cask install mou
 brew cask install sourcetree
-brew cask install robomongo
-brew cask install atom
-open base16-tomorrow.dark.itermcolors
 cd DejaVuSansMono/
 open *.ttf

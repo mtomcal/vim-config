@@ -15,6 +15,7 @@ git_bundles = [
   "git://github.com/kien/ctrlp.vim",
   "git://github.com/scrooloose/syntastic.git",
   "git://github.com/MarcWeber/vim-addon-mw-utils.git",
+  "git://github.com/dyng/ctrlsf.vim"
 ]
 
 vim_org_scripts = [
